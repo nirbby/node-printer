@@ -2,7 +2,18 @@ Node Printer Prebuild
 ============
 Native bind printers on POSIX and Windows OS from Node.js, electron and node-webkit.
 
-[![npm version](https://badge.fury.io/js/@thiagoelg%2Fnode-printer.svg)](https://www.npmjs.com/package/@thiagoelg/node-printer) [![Prebuild Binaries and Publish](https://github.com/thiagoelg/node-printer/actions/workflows/prebuild-main.yml/badge.svg)](https://github.com/thiagoelg/node-printer/actions/workflows/prebuild-main.yml)
+[![npm version](https://badge.fury.io/js/@nirbby%2Fnode-printer.svg)](https://www.npmjs.com/package/@nirbby/node-printer)
+
+## Fork Information
+
+This is a fork of the original `node-printer` library with the following improvements:
+
+- ✅ **Node.js 22 Support**: Updated to work with the latest Node.js versions
+- ✅ **Updated Dependencies**: Upgraded NAN and prebuild dependencies for modern compatibility
+- ✅ **Windows C++ Fixes**: Fixed compilation issues with modern C++ compilers
+- ✅ **Maintained Compatibility**: Retains all original functionality while adding modern support
+
+### Original Credits:
 
 > It just works with Node 12 because of @thiagoelg in his [PR](https://github.com/tojocky/node-printer/pull/261)
 
@@ -39,7 +50,7 @@ I was involved in a project where I need to print from Node.JS. This is the reas
 
 ### How to install:
 ```
-npm install @thiagoelg/node-printer
+npm install @nirbby/node-printer
 ```
 
 ### How to use:
@@ -50,10 +61,11 @@ See [examples](https://github.com/thiagoelg/node-printer/tree/main/examples)
 
 * Ion Lupascu, ionlupascu@gmail.com
 
-### Contibutors:
+### Contributors:
 
 * Thiago Lugli, @thiagoelg
 * Eko Eryanto, @ekoeryanto
+* Axel Avila, @nirbby (Node.js 22 compatibility and modern updates)
 
 Feel free to download, test and propose new futures
 
